@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BathroomRender render BathroomRender with props 1`] = `
+<Fragment>
+  <div
+    className="bathroomCat"
+  >
+    Bathroom King/Queen: 
+    <span
+      className="bathroomDetails"
+    >
+      gilbear
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Overall Score: 
+    <span
+      className="bathroomDetails ovrScore"
+    >
+      3
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Distance: 
+    <span
+      className="bathroomDetails"
+    >
+      5
+       mi
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Latitude: 
+    <span
+      className="bathroomDetails"
+    >
+      33.9177213
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Longitude: 
+    <span
+      className="bathroomDetails"
+    >
+      -117.93226909999998
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Handicap Accessible: 
+    <span
+      className="bathroomDetails"
+    >
+      No
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Men's Bathroom: 
+    <span
+      className="bathroomDetails"
+    >
+      Yes
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Women's Bathroom: 
+    <span
+      className="bathroomDetails"
+    >
+      Yes
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Unisex Bathroom: 
+    <span
+      className="bathroomDetails"
+    >
+      No
+    </span>
+  </div>
+  <div
+    className="bathroomCat"
+  >
+    Family Bathroom: 
+    <span
+      className="bathroomDetails"
+    >
+      No
+    </span>
+  </div>
+</Fragment>
+`;

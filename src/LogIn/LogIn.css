@@ -1,0 +1,89 @@
+.logInPage {
+    margin-top: 50px;
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+.middleDivider {
+    height: 50%;
+    background: linear-gradient(to right, transparent 0%, transparent calc(50% - 0.81px), lightgrey calc(50% - 0.8px), lightgrey calc(50% + 0.8px), transparent calc(50% + 0.81px), transparent 100%); 
+    align-items: top;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 50px 20px 50px 20px;
+}
+.userLogIn, 
+.createUser{
+    max-width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userLogin {
+    margin-right: 30px;
+}
+.createUser {
+    margin-left: 30px;
+}
+.logUsernameInput, .createNameInput {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+.logPasswordInput, 
+.createPasswordInput, 
+.checkPasswordInput {
+    margin-top: 25px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#account-name-input, 
+#account-password-input, 
+#create-name-input, 
+#create-password-input, 
+#check-password-input{
+    font-size: 14px;
+    width: 100%;
+    max-width: 500px;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+legend.logTitle {
+    font-size: 20px;
+}
+.checkUserButton, 
+.createUserButton {
+    margin-top: 30px;
+}
+
+/* Responsive anything smaller than 880px */
+@media screen and (max-width: 800px){
+    .logInPage {
+        width: 50%;
+        min-width: 350px;
+        margin-top: 25px;    
+    }
+    .middleDivider {
+        background: linear-gradient(to right, transparent 0%, transparent calc(50% - 0.81px), white calc(50% - 0.8px), white calc(50% + 0.8px), transparent calc(50% + 0.81px), transparent 100%); 
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .userLogIn {
+        border-bottom: 1px solid lightgrey;
+    
+    }
+    .createUser {
+        margin: 0px;
+    }
+}

@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BathroomPage render BathroomPage renders first review by gilbear 1`] = `
+<div
+  className="bathroomById"
+  data-test="bathroomByIdTest"
+>
+  <section
+    className="bathroomByIdInfo"
+    data-test="bathroomByIdInfoTest"
+  >
+    <h4
+      className="bathroomDetailTitle"
+    >
+      Molca Salsa
+    </h4>
+    <BathroomRender
+      bathroom={
+        Object {
+          "bathroom_user_id": "u5kz5iofaz",
+          "bathroom_user_name": "gilbear",
+          "distanceFar": 2,
+          "family": false,
+          "handi": false,
+          "id": 2,
+          "latitude": "33.9177213",
+          "longitude": "-117.93226909999998",
+          "men": true,
+          "name": "Molca Salsa",
+          "overallScore": 1,
+          "unisex": false,
+          "women": true,
+        }
+      }
+      convertBool={[Function]}
+    />
+    <button
+      className="addReviewButton"
+      onClick={[Function]}
+    >
+      Add a Review
+    </button>
+  </section>
+  <section
+    className="reviewsSection"
+    data-test="reviewsSectionTest"
+  >
+    <h2
+      className="ReviewTitle"
+    >
+      Reviews
+    </h2>
+    <button
+      className="addReviewSmall"
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <ul
+      className="itemLists"
+    >
+      <li
+        className="reviewPost"
+        key="1"
+      >
+        <div
+          className="bathroomCat"
+        >
+          Modified: 
+          <span
+            className="bathroomDetails"
+          >
+            9/3/2019, 10:01:19 PM
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+          data-test="gilbear"
+        >
+          Review by: 
+          <span
+            className="bathroomDetails"
+          >
+            gilbear
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+        >
+          Overall Score: 
+          <span
+            className="bathroomDetails"
+          >
+            1
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+        >
+          Cleanliness: 
+          <span
+            className="bathroomDetails"
+          >
+            1
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+        >
+          Privacy: 
+          <span
+            className="bathroomDetails"
+          >
+            1
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+        >
+          Bathroom Used: 
+          <span
+            className="bathroomDetails"
+          >
+            Men
+          </span>
+        </div>
+        <div
+          className="bathroomCat"
+        >
+          Smell:
+          <span
+            className="bathroomDetails"
+          >
+            1
+          </span>
+        </div>
+        <div
+          className="textCat"
+        >
+          Bathroom Location: 
+          <span
+            className="textDetails"
+          >
+            around the back of the restaurant
+          </span>
+        </div>
+        <div
+          className="textCat"
+        >
+          Comment: 
+          <span
+            className="textDetails"
+          >
+            Very dirty!
+          </span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <Pagination
+    currentPage={1}
+    postsPerPage={2}
+    totalPosts={1}
+  />
+</div>
+`;
+
+exports[`BathroomPage renders SearchBar 1`] = `
+<div
+  className="bathroomById"
+  data-test="bathroomByIdTest"
+>
+  <section
+    className="bathroomByIdInfo"
+    data-test="bathroomByIdInfoTest"
+  >
+    <h4
+      className="bathroomDetailTitle"
+    />
+    <BathroomRender
+      bathroom={
+        Object {
+          "content": "",
+          "overallScore": "Not Yet Reviewed",
+        }
+      }
+      convertBool={[Function]}
+    />
+    <button
+      className="addReviewButton"
+      onClick={[Function]}
+    >
+      Add a Review
+    </button>
+  </section>
+  <section
+    className="reviewsSection"
+    data-test="reviewsSectionTest"
+  >
+    <h2
+      className="ReviewTitle"
+    >
+      Reviews
+    </h2>
+    <button
+      className="addReviewSmall"
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <ul
+      className="itemLists"
+    />
+  </section>
+  <Pagination
+    currentPage={1}
+    postsPerPage={2}
+    totalPosts={0}
+  />
+</div>
+`;

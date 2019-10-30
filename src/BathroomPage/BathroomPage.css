@@ -1,0 +1,120 @@
+.bathroomById {
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+.bathroomDetailTitle {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.bathroomByIdInfo {
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+    position: relative;
+}
+.addReviewButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    border-color: orange;
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+}
+.addReviewButton:hover, .addReviewButton:focus {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+.textCat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: rgb(241, 241, 241, .5);
+    padding: 5px;
+}
+.textDetails {
+    margin-top: 2px;
+    max-width: 500px;
+    font-weight: normal;
+}
+
+.reviewsSection {
+    position: relative;
+}
+.reviewPost {
+    list-style: none;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+.addReviewSmall {
+    visibility: hidden;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px; 
+    background-color: orange;
+    border-color: orange;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.addReviewSmall:hover, .addReviewSmall:focus {
+    cursor: pointer;
+    background: black;
+    border-color: black;
+}
+
+/* Responsive anything smaller than 430px */
+@media screen and (max-width: 430px){
+    .bathroomById {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .bathroomByIdInfo {
+        background-color:rgb(241, 241, 241, .5);
+        padding-bottom: 15px;
+    }
+    .reviewPost {
+        padding: 5px;
+        background-color: rgb(241, 241, 241, .5);
+    }
+    .textCat {
+        padding: 3px;
+        font-size: 12px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .textDetails {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    .addReviewButton {
+        visibility: hidden;
+    }
+    .addReviewSmall {
+        visibility: visible;
+    }
+}

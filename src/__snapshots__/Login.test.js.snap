@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Should render CheckLogged 1`] = `
+<div
+  className="logInPage"
+  data-test="logInPageTest"
+>
+  <div
+    className="middleDivider"
+  >
+    <LoginForm
+      checkFormValid={true}
+      checkPasswordValid={false}
+      checkUsernameValid={false}
+      handleSignInSubmit={[Function]}
+      validationMessages={
+        Object {
+          "name": "",
+        }
+      }
+    />
+    <SignUpForm
+      checkFormValid={true}
+      handleLogInSubmit={[Function]}
+      passwordValid={true}
+      repeatPasswordValid={true}
+      usernameValid={true}
+      validationMessages={
+        Object {
+          "name": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;

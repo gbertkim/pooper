@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckLogged Should render CheckLogged 1`] = `
+<div
+  className="logInRequired"
+>
+  <p>
+    Please 
+    <Link
+      className="linkAway"
+      to="/log-in"
+    >
+      log in
+    </Link>
+     to view this page
+  </p>
+</div>
+`;

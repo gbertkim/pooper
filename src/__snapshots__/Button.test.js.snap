@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Should render Button 1`] = `
+<Link
+  className="loggingButton"
+  to="/log-in"
+>
+  Log In
+</Link>
+`;

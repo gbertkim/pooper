@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitReview Should render SubmitReview 1`] = `
+<section
+  className="addReview"
+  data-test="addReviewTest"
+>
+  <form
+    className="form reviewForm"
+    onSubmit={[Function]}
+  >
+    <fieldset
+      className="reviewFormFieldset"
+    >
+      <legend
+        className="formTitle"
+      >
+        Review Form
+      </legend>
+      <div
+        className="bathroomSelect"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-bathroom-select"
+        >
+          Bathroom:
+        </label>
+        <select
+          className="fieldSelector"
+          id="review-bathroom-select"
+          name="review-bathroom-select"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            className="bathroomSelect"
+            key="null"
+            value="null"
+          >
+            ...
+          </option>
+          <option
+            className="bathroomSelect"
+            key="Men"
+            value="Men"
+          >
+            Men
+          </option>
+          <option
+            className="bathroomSelect"
+            key="Women"
+            value="Women"
+          >
+            Women
+          </option>
+          <option
+            className="bathroomSelect"
+            key="Unisex"
+            value="Unisex"
+          >
+            Unisex
+          </option>
+        </select>
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <div
+        className="cleanInput"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-clean-input"
+        >
+          Cleanliness:
+        </label>
+        <input
+          aria-label="Review Cleanliness Input"
+          aria-required="true"
+          id="review-clean-input"
+          name="review-clean"
+          onChange={[Function]}
+          placeholder="1-5, 5 is best"
+          type="number"
+          value=""
+        />
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <div
+        className="privacyInput"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-privacy-input"
+        >
+          Privacy:
+        </label>
+        <input
+          aria-label="Review Privacy Input"
+          aria-required="true"
+          id="review-privacy-input"
+          name="review-privacy"
+          onChange={[Function]}
+          placeholder="1-5, 5 is best"
+          type="number"
+          value=""
+        />
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <div
+        className="smellInput"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-smell-input"
+        >
+          Smell:
+        </label>
+        <input
+          aria-label="Review Smelll Input"
+          aria-required="true"
+          id="review-smell-input"
+          name="review-smell"
+          onChange={[Function]}
+          placeholder="1-5, 5 is best"
+          type="number"
+          value=""
+        />
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <div
+        className="directionInput"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-direction-input"
+        >
+          Location of Bathroom:
+        </label>
+        <textarea
+          aria-label="Review Direction Input"
+          aria-required="true"
+          id="review-direction-input"
+          maxlength="255"
+          name="review-direction"
+          onChange={[Function]}
+          placeholder="Describe where the bathroom is located and how to access it"
+          type="textarea"
+          value=""
+        />
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <div
+        className="commentInput"
+      >
+        <label
+          className="fieldTitle"
+          htmlFor="review-comment-input"
+        >
+          Comment:
+        </label>
+        <textarea
+          aria-label="Review comment Input"
+          aria-required="true"
+          id="review-comment-input"
+          maxlength="4000"
+          name="review-comment"
+          onChange={[Function]}
+          placeholder="Write about your overall experience"
+          type="textarea"
+          value=""
+        />
+        <ValidationError
+          hasError={true}
+        />
+      </div>
+      <button
+        className="button submitReviewButton"
+        disabled={true}
+        type="submit"
+      >
+        Add Review
+      </button>
+    </fieldset>
+  </form>
+</section>
+`;

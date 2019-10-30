@@ -1,0 +1,28 @@
+.bathroomCat {
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 2px;
+    font-weight: bold;
+    background-color: rgb(241, 241, 241, .5);
+}
+.bathroomDetails {
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+/* Responsive anything smaller than 430px */
+@media screen and (max-width: 430px){
+    .bathroomCat {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        font-size: 12px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .bathroomDetails {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders SearchBar 1`] = `
+<section
+  className="autoInput"
+  data-test="autoInputTest"
+>
+  <div
+    className="AddLocationError"
+    role="alert"
+  />
+  <form
+    className="searchForBathrooms"
+  >
+    <fieldset
+      className="fieldsetStart"
+    >
+      <PlacesAutocomplete
+        debounce={200}
+        highlightFirstSuggestion={false}
+        onChange={[Function]}
+        onError={[Function]}
+        onSelect={[Function]}
+        searchOptions={Object {}}
+        shouldFetchSuggestions={true}
+        value=""
+      >
+        <Component />
+      </PlacesAutocomplete>
+    </fieldset>
+    <button
+      className="button FormButton"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </form>
+</section>
+`;

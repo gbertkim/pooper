@@ -1,0 +1,55 @@
+.aboutPage {
+    background-color: black;
+    color: white;
+    width: 60%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.slogan {
+    border-top: 1px white solid;
+    width: 100%;
+    padding: 20px;
+}
+
+.howToSection {
+    padding: 20px;
+    line-height: 24px;;
+    font-size: 18px;
+}
+
+.howToList {
+    margin-top: 5px;
+}
+
+.aboutLinks{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px orange solid;
+    color: white;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.aboutLinks:hover, .aboutLinks:focus {
+    cursor: pointer;
+    color: orange;
+    border-color: rgb(189, 102, 3);
+    background-color: rgb(189, 102, 3);
+
+}
+
+/* Responsive smaller than 600px */
+@media screen and (max-width: 600px){
+    .aboutPage {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+}

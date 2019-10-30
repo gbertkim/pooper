@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    min-width: 350px;
+    font-family: 'Helvetica', sans-serif;
+}
+body {
+    display: block;
+    overflow: scroll;
+    background-image: url('../images/la-map.jpg');
+    background-position: center;
+    background-size: 100% auto;
+}
+main {
+    padding-top: 140px;
+}
+#root, .App {
+    height: 100%;
+}
+header {
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    z-index: 5;
+}
+.topBar{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+.app_title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: none;
+}8
+.headerLink:hover, .headerLink:focus {
+    cursor: pointer;
+    color: aqua;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.headerLink {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.headerLink:hover, .headerLink:focus{
+    cursor: pointer;
+} 
+.searchForBathrooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+fieldset {
+    border: none;
+    width: 100%;
+}
+.fieldsetStart{
+    max-width: 600px;
+}
+.findPlacesInput{
+    width: 100%;
+}
+.fieldTitle{
+    font-size: 20px;
+}
+input.location-search-input{
+    font-size: 16px;
+    border: 2px lightgrey solid;
+    padding: 5px;
+    width: 100%;
+}
+.button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    padding: 5px;
+}
+.button:disabled {
+    background-color: grey;
+    color: lightgrey;
+    border: none;
+}
+.button:hover:enabled, .button:focus:enabled {
+    cursor: pointer;
+    background-color: rgb(189, 102, 3);
+    border-color: rgb(189, 102, 3);;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+.editDeleteButtons {
+    margin-left: 5px;
+}
+.loggingButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+    border: black 2px solid;
+
+}
+.loggingButton:hover, .logginButton:focus {
+    color: orange;
+    border: orange 2px solid;
+    padding: 4px;
+}
+.goBackButton {
+    border: 2px solid orange;
+    background-color: black;
+    padding: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+}
+.goBackButton:hover, .goBackButton:focus {
+    cursor: pointer;
+    color: orange;
+}
+.autocomplete-dropdown-container {
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    z-index: 2;
+}
+.suggestion-item, .suggestion-item--active{
+    padding: 5px;
+    border-bottom: 1px lightgrey solid;
+    font-size: 16px;
+}
+.addReview, 
+.logInPage,
+.addBathroom,
+.addReview,
+.aboutPage,
+header
+{    
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+.bathroomsPage,
+.bathroomById
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.bathroomsPage:before, .bathroomsPage:after,
+.bathroomById:before, .bathroomById:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.bathroomsPage:after,
+.bathroomById:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}

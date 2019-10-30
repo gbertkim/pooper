@@ -1,0 +1,70 @@
+.addReview {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 900px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+.reviewFormFieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#review-bathroom-select{
+    min-width: 115px;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+}
+.bathroomSelect, 
+.cleanInput, 
+.privacyInput, 
+.smellInput {
+    margin-top: 15px;
+}
+.directionInput, 
+.commentInput {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#review-clean-input, #review-privacy-input, #review-smell-input {
+    font-size: 14px;
+    max-width: 115px;;
+    padding: 2px;
+    margin-left: 5px;
+    border: 1px solid lightgrey;
+}
+#review-direction-input, #review-comment-input {
+    margin-top: 10px;
+    font-size: 14px;
+    min-height: 80px;
+    padding: 5px;
+    max-width: 500px;
+    border: 1px solid lightgrey;
+}
+.submitReviewButton {
+    margin-top: 30px;
+}
+.linkAway {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    text-decoration: none;
+}
+
+.linkAway:hover, .linkAway:focus {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+/* Responsive anything smaller than 550px */
+@media screen and (max-width: 550px){
+    .addReview {
+        width: 80%;
+        margin-top: 15px;
+    }
+    
+}
