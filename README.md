@@ -32,4 +32,4 @@ When a bathroom is clicked, a bathroom's list of reviews is loaded. The user may
 
 The web app is responsive.
 
-![Responsive](sample/sample_5.png "Responsive example
+![Responsive](sample/sample_5.png "Responsive example")
