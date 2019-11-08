@@ -4,6 +4,11 @@
 
 [https://pooper.gbertkim.now.sh/](https://pooper.gbertkim.now.sh/)
 
+Server-side: 
+
+[https://github.com/gbertkim/pooper-api](https://github.com/gbertkim/pooper-api)
+
+
 ## Description
 
 Pooper is a web app/project made to upload and find clean bathrooms near you. Using Google Places API, users can find bathroom locations and rate their bathroom experiences. 
