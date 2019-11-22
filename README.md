@@ -32,6 +32,7 @@ Example of the search results with filter options. The user may add a bathroom o
 ![Bathrooms List](sample/sample_3.png "Bathrooms List")
 
 When a bathroom is clicked, a bathroom's list of reviews is loaded. The user may then add a review or delete/update a review they had previously created. 
+Deleting or Editing bathrooms and review buttons only show for creators of the bathroom and reviews. 
 
 ![Reviews List](sample/sample_4.png "Reviews List")
 
