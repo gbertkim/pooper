@@ -6,7 +6,7 @@ class LogOutButton extends Component {
 	render(){
 		if (this.props.logged === true){
 			return(
-				<Link className='loggingButton' to='/account' onClick={this.props.handleLogged}>Log Out</Link>
+				<Link className='loggingButton' to='/' onClick={this.props.handleLogged}>Log Out</Link>
 			)		
 		} else {
 			return (
