@@ -9,7 +9,7 @@ import '../BathroomRender/BathroomRender.css'
 export default class BathroomPage extends React.Component {
     state = {
         currentPage: 1,
-        postsPerPage: 1
+        postsPerPage: 5
     }
     static defaultProps = {
         match: {
