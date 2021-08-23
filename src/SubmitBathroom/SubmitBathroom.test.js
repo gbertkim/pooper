@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import SubmitBathroom from './SubmitBathroom'
-import CheckLogged from './CheckLogged'
+import CheckLogged from '../CheckLogged/CheckLogged'
 
 xdescribe(`SubmitBathroom`, () => {
     it('Should render SubmitBathroom', () => {

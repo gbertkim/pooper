@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import SubmitReview from './SubmitReview'
-import CheckLogged from './CheckLogged'
+import CheckLogged from '../CheckLogged/CheckLogged'
 
 describe(`SubmitReview`, () => {
     it('Should render SubmitReview', () => {
