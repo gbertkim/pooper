@@ -5,7 +5,8 @@
 [https://pooper-gbertkim.vercel.app/](https://pooper-gbertkim.vercel.app/)
 
 Username: gilbear
-password: portfolio
+
+Pass: portfolio
 
 Server-side: 
 
