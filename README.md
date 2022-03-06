@@ -4,6 +4,9 @@
 
 [https://pooper-gbertkim.vercel.app/](https://pooper-gbertkim.vercel.app/)
 
+Username: gilbear
+password: portfolio
+
 Server-side: 
 
 [https://github.com/gbertkim/pooper-api](https://github.com/gbertkim/pooper-api)
